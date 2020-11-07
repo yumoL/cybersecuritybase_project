@@ -1,0 +1,14 @@
+<h1>Admin Page</h1>
+
+<form action="/remove/" method="POST">
+    {% csrf_token %}
+    remove user:
+    <select name="remove">
+        {% for user in users %}
+            <option value="{{user.username}}">{{user.username}}</option>
+        {% endfor %}
+    </select>
+    <br/>
+    <input type="submit" value="remove" />
+</form>
+
