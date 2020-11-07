@@ -1,6 +1,9 @@
 # cybersecuritybase_project
 
-A course project with several [cyber security flaws](https://owasp.org/www-project-top-ten/)
+A course project with several [cyber security flaws](https://owasp.org/www-project-top-ten/). This web application is a simple mailbox that allows a user to send messages to another. 
+
+### Installation guides
+Run `python3 -m pip install django selenium beautifulsoup4 requests `.
 
 ### How to start
 - Run `python 3 manage.py migrate` to create a database named db.sqlite3.
